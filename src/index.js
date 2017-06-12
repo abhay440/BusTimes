@@ -31,7 +31,7 @@ BusTimes.prototype.intentHandlers = {
 };
 
 function handleBusRequest(response) {
-    makeNextBusRequest("sf-muni", 15613, function nextBusRequestCallback(err, nextBusResponse) {
+    makeNextBusRequest("mbta", 2371, function nextBusRequestCallback(err, nextBusResponse) {
         var speechOutput;
 
         if (err) {
